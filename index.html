@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>INSERT PAGE TITLE HERE</title>
+<meta charset="utf-8">
+<meta name="description" content="PAGE DESCRIPTION GOES HERE">
+<meta name="author" content="AUTHOR NAME(S) GO HERE">
+<meta name="organization" content="ORGANIZATIONAL AFFILIATIONS GO HERE">
+<meta name="funder" content="FUNDER, IF APPLICABLE GOES HERE">
+
+<script src="js/CETEI.js"></script>
+
+<link rel="stylesheet" href="css/CETEIcean.css"/>
+<link rel="stylesheet" href="css/style.css"/>
+
+</head>
+<body>
+<h1 align="center">PAGE TITLE TO BE DISPLAYED GOES HERE</h1><br>
+<h4 align="center">PAGE SUBTITLE, IF ANY, TO BE DISPLAYED GOES HERE</h4>
+<h5 align="center">PAGE AUTHOR(S) HERE</h5>
+
+<hr>
+
+<p>BODY TEXT GOES HERE</p>
+
+<div id="TEI"></div>
+
+<script>
+var CETEIcean = new CETEI()
+CETEIcean.getHTML5("../data/FILENAMEGOESHERE.xml", function(data) {
+document.getElementById("TEI").appendChild(data)
+})
+</script>
+
+</body>
+</html>

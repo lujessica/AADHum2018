@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+      <titleStmt>
+        <title type="main">DIGITAL SURROGATE TITLE, 10 words of less</title>
+        <title type="sub">Digital Edition</title>
+        <author>
+          <persName xml:id="ASSIGNEDXML1">
+            <forename>FIRST NAME</forename>
+            <surname>LAST NAME</surname>
+          </persName>
+          <orgName xml:id="ASSIGNMEDXML2">AFFILIATED ORGANIZATION</orgName>
+        </author>
+      <respStmt>
+        <resp>Encoded by</resp>
+          <persName xml:id="ASSIGNEDXML3">
+            <forename>FIRST NAME</forename>
+            <surname>LAST NAME</surname>
+          </persName>
+      </respStmt>
+      <respStmt>
+        <resp>Original text transcribed by</resp>
+          <persName ref="ASSIGNMEDXML4">
+            <forename>FIRST NAME</forename>
+            <surname>LAST NAME</surname>
+          </persName>
+        </respStmt>
+      <respStmt>
+        <resp>Original TEI template provided by</resp>
+          <persName xml:id="RAFF">
+            <forename>Raffaele</forename>
+            <surname>Viglianti</surname>
+          </persName>
+          <orgName xml:id="MITH">Maryland Institute for Technology in the Humanities (<abbr>MITH</abbr>)</orgName>
+        </respStmt>
+      <funder>
+          <orgName xml:id="ASSIGNEDXML5">FUNDING ORGANIZATION</orgName>
+          <orgName xml:id="ASSIGNEDXML6">SECOND FUNDING ORGANIZATION, IF ANY</orgName>
+      </funder>
+    </titleStmt>
+    <editionStmt>
+      <edition n="1">First Edition</edition>
+    </editionStmt>
+    <extent>
+      <measure unit="pages" quantity="2">2 pages of original source material</measure>
+    </extent>
+    <publicationStmt>
+      <publisher>
+        <orgName ref="#ASSIGNEDXML7">PUBLISHING ORGANIZATION</orgName>
+      </publisher>
+      <pubPlace>
+        <settlement>TOWN OR CITY OF PUBLICATION</settlement>
+        <region>STATE OF PUBLICATION</region>
+      </pubPlace>
+      <date when="2018-07-09">DATE OF PUBLICATION, e.g. July 8, 2018</date>
+      <availability status="free">
+          <p>Declaration of availability/access, e.g. In the public domain.</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+        <title type="main">TITLE OF DIGITAL COLLECTION</title>
+        <title type="sub">SUBTITLE OF DIGITAL COLLECTION, IF ANY</title>
+        <respStmt>
+            <resp>Edited by</resp>
+            <persName ref="ASSIGNEDXML8">
+              <forename>FIRST NAME</forename>
+              <surname>LAST NAME</surname>
+            </persName>
+        </respStmt>
+        <respStmt>
+            <resp>Texts identified and assembled by</resp>
+            <persName ref="ASSIGNMEDXML9">
+              <forename>FIRST NAME</forename>
+              <surname>LAST NAME</surname>
+            </persName>
+        </respStmt>
+    </seriesStmt>
+    <sourceDesc>
+      <listBibl>
+      <bibl>
+        <title type="main">ORIGINAL SOURCE MATERIAL TITLE, no more than 10 words</title>
+        <title type="sub">ORIGINAL SOURCE MATERIAL SUBTITLE, if applicable</title>
+        <author>
+          <persName xml:id="ASSIGNEDXML10"> <!-- In the event that the original author's name does not take on a traditional forename-surname form, use <name> instead and provide a comment to indicate what kind of name (e.g. username, handle, alias, etc.) is provided. -->
+            <forename>FIRST NAME</forename>
+            <surname>LAST NAME</surname>
+          </persName>
+        </author>
+        <publisher>
+          <orgName xml:id="ASSIGNMEDXML11">PUBLISHER OF ORIGINAL SOURCE MATERIAL</orgName>
+        </publisher>
+        <pubPlace> <!-- In the event of digital publication on a platform/site that could be argued as a "Black place," insert the platform/site name here instead of the usual region, settlement, and country tags. Use a comment to explain why the site/platform should be understood as constituting a "Black place." -->
+          <settlement>CITY OF PUBLICATION OF ORIGINAL SOURCE MATERIAL</settlement>
+          <region>STATE OF PUBLICATION OF ORIGINAL SOURCE MATERIAL</region>
+          <country>COUNTRY OF PUBLICATION OF ORIGINAL SOURCE MATERIAL</country>
+        </pubPlace>
+        <date when="2018-01-01">PUBLICATION DATE OF ORIGINAL SOURCE MATERIAL, e.g. January 1, 2018</date>
+      </bibl>
+      <bibl xml:id="ASSIGNEDXML12">
+          <title type="main">TITLE OF ADDITIONAL SOURCE MATERIAL HERE</title>
+          <title type="sub">SUBTITLE OF ADDITIONAL SOURCE MATERIAL, IF ANY</title>
+          <author>
+              <persName ref="ASSIGNEDXML13">
+                <forename>FIRST NAME</forename>
+                <surname>LAST NAME</surname>
+              </persName>
+          </author>
+          <publisher>
+            <orgName xml:id="ASSIGNEDXML14">PUBLISHER OF ADDITIONAL SOURCE MATERIAL</orgName>
+          </publisher>
+          <pubPlace>
+            <settlement>CITY OF PUBLICATION OF ORIGINAL SOURCE MATERIAL</settlement>
+            <region>STATE OF PUBLICATION OF ORIGINAL SOURCE MATERIAL</region>
+            <country>COUNTRY OF PUBLICATION OF ORIGINAL SOURCE MATERIAL</country>
+          </pubPlace>
+          <date when="2018-01-01">PUBLICATION DATE OF ORIGINAL SOURCE MATERIAL, e.g. January 1, 2018</date>
+      </bibl>
+      </listBibl>
+      <biblStruct type="article"> <!-- Provided as an example of using the sourceDesc to cite Black scholarship that grounds the encoder's decisions during the markup process. Adapt as needed to amplify Black scholarship and knowledge-making. -->
+        <analytic>
+          <author>
+            <persName xml:id="SHART">
+              <forename>Saidiya</forename>
+              <surname>Hartman</surname>
+            </persName>
+          </author>
+          <title>Venus in Two Acts</title>
+        </analytic>
+        <monogr>
+          <title level="j">Small Axe</title>
+          <imprint>
+            <publisher>Duke University Press</publisher>
+            <pubPlace>
+              <settlement>Durham</settlement>
+              <region>North Carolina (<abbr>NC</abbr>)</region>
+              <country>United States of America (<abbr>USA</abbr>)</country>
+            </pubPlace>
+            <date when="2008-06">June 2008</date>
+          </imprint>
+          <biblScope unit="page" from="1" to="14">pp. 1-14</biblScope>
+        </monogr>
+        <note>In this article, Saidiya Hartman theorizes archival violence and its disproportionate impact on the lives of Black women. Hartman argues that archival traces and texts corroborate representations of Black women as always dead or dying, if not in relentless peril. Such violence dehumanizes Black women, not just in the historical record, but also in contemporary life. This theorizing of archival violence contributes to this digital surrogate insofar as every attempt has been made to recognize and amplify the human activities and accomplishments of Black women, with particular attention paid to their life experiences beyond suffering and pain.</note>
+      </biblStruct>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <editorialDecl> <!-- The following markup is provided as an example of how encoding choices can be made transparent, and how markup can be pursued with African American history, culture, and theorizing in mind. Adapt as needed for your project. -->
+      <hyphenation eol="none">
+        <p>Except where normalization disrupts the formatting of the digital surrogate when rendered online, all end-of-line hyphenation in the original source material has been reformed. The <gi>choice</gi> element has been used to enclose <gi>orig</gi> and <gi>reg</gi> elements giving the original hyphenation and regularized version, respectively.</p>
+      </hyphenation>
+      <normalization method="markup">
+        <p>All obvious spelling and typographical errors in the original source material is corrected. The <gi>choice</gi> element has been used to enclose <gi>sic</gi> and <gi>corr</gi> elements giving the original error and correction, respectively.</p>
+      </normalization>
+      <normalization method="silent">
+        <p>Whenever necessary, spacing between words and following punctuation has been regularized to zero spaces; spacing between words has been regularized to one space.</p>
+      </normalization>
+      <normalization source="https://www.newyorker.com/magazine/2017/05/15/the-case-for-black-english">
+        <p>Instances of African American Vernacular English have purposefully NOT been adjusted to comply with American English language practices. African American Vernacular English is wholly valid in its form, features, and creativity, despite the dominance and presumed correctness of American English.</p>
+      </normalization>
+      <p>To represent changes and/or corrections made by the original source authors BEFORE the encoding process, encoders use <gi>add</gi>, <gi>del</gi>, and <gi>subst</gi>.</p>
+      <p>Encoding includes the use of <gi>supplied</gi> to provide clarification and supporting content, including out-links to relevant digital content and citations of Black and Black-centric academic research.</p>
+    </editorialDecl>
+    <samplingDecl>
+      <p>Use as needed to explain when and why only portions or selections of the original source material are sampled.</p>
+    </samplingDecl>
+    <projectDesc>
+      <p>PROJECT DESCRIPTION HERE</p>
+    </projectDesc>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="us-aave">African American Vernacular English</language> <!-- AAVE is purposefully listed first, to visually reinforce its validity alongside Standard American English and primacy among Black Americans. -->
+      <language ident="us-en">Standard American English</language>
+    </langUsage>
+    <particDesc> <!-- Provides an opportunity to not only recognize, but amplify, each participant (organization, person, person group, etc.) that "participates" or appears meaningfully in the text. -->
+      <listOrg>
+        <org>
+          <orgName ref="ASSIGNMEDXML15">
+            <name ref="URL TO ORG'S LOC AUTHORITY FILE, IF USING">ORGANIZATION NAME, e.g. University of Maryland, College Park</name>
+            <abbr>ORGANIZATION ABBREVIATION, IF ANY</abbr>
+          </orgName>
+          <idno type="LCAF">LIBRARY OF CONGRESS CATALOGUING NUMBER, if using</idno>
+          <placeName>
+            <settlement>ORGANIZATION'S CITY LOCATION</settlement>
+            <region>ORGANIZATION'S STATE LOCATION</region>
+            <country>ORGANIZATION'S COUNTRY LOCATION</country>
+          </placeName>
+          <note>Provide a brief statement that identifies or describes the organization and its relevance to the digital surrogate.</note>
+        </org>
+      </listOrg>
+      <listPerson>
+        <person>
+          <persName xml:id="ASSIGNEDXML16" ref="URL TO PERSON'S LOC AUTHORITY FILE OR OTHER HELPFUL BIO INFORMATION"> <!-- Notice how you can ASSIGN an xml ID within the same tag as a ref, but you cannot REFERENCE a previously assigned xml ID alongside an additional ref. See lines 181 and 182 above. -->
+            <forename>FIRST NAME</forename>
+            <surname>LAST NAME</surname>
+          </persName>
+          <idno type="LCAF">LIBRARY OF CONGRESS CATALOGUING NUMBER, if using</idno>
+          <note>Provide a brief statement that identifies or describes the person, their accomplishments, notable characteristics, and their relevance to the digital surrogate.</note>
+        </person>
+      </listPerson>
+      <personGrp> <!-- Provided as an example of how personGrp can be used to animate intentionally digital, intentionally Black practices in encoding projects. -->
+        <persName xml:id="BLK">Black and African American people</persName>
+        <note>The identification and amplification of this person group is necessary for the reading and interpretation of this text, as this text uses "the Negro" to erroneously generalize about all Black and African Americans and/or diminish their status as fully human.</note>
+      </personGrp>
+    </particDesc>
+  </profileDesc>
+  <revisionDesc>
+    <listChange>
+      <change>Identify and explain a substantive change, made on INSERT DATE HERE.</change>
+      <change>Indentify and explain the next substantive change, made on INSERT DATE HERE.</change>
+    </listChange>
+  </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>Text body goes here.</p>
+    </body>
+  </text>
+</TEI>
