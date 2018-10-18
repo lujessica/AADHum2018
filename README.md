@@ -5,6 +5,8 @@
 
 <p>Slides for the pre-conference can be found <a href="https://docs.google.com/presentation/d/1z9d3JVjva8fm41yZtSCJYYXEghHpI759Nf66g6AH3Ao/edit?usp=sharing">here</a>.</p>
 
+<p>This training repository can also be used in conjunction with the "<a href="https://github.com/lujessica/emptyproject">emptyproject</a>" repository.</p>
+
 <p><b>To work effectively with these materials, you will need:</b></p>
 <ul>
 <li><a href="https://atom.io">Atom Text Editor</a></li>
