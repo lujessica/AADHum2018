@@ -15,19 +15,12 @@
 
 </head>
 <body>
-<h1 align="center">PAGE TITLE TO BE DISPLAYED GOES HERE</h1><br>
-<h4 align="center">PAGE SUBTITLE, IF ANY, TO BE DISPLAYED GOES HERE</h4>
-<h5 align="center">PAGE AUTHOR(S) HERE</h5>
-
-<hr>
-
-<p>BODY TEXT GOES HERE</p>
 
 <div id="TEI"></div>
 
 <script>
 var CETEIcean = new CETEI()
-CETEIcean.getHTML5("../data/ENCODEDFILENAMEGOESHERE.xml", function(data) {
+CETEIcean.getHTML5("../data/HowardSpeech.xml", function(data) {
 document.getElementById("TEI").appendChild(data)
 })
 </script>
