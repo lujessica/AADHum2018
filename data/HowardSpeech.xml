@@ -101,7 +101,7 @@
         <publisher>
           <orgName ref="#NYT">The New York Times</orgName>
         </publisher>
-        <pubPlace>
+        <pubPlace ref="https://www.nytimes.com/1865/08/20/archives/the-freedmen-organization-of-the-freedmens-bureau-its-objects-and.html">
           <settlement>New York</settlement>
           <region>New York (<abbr>NY</abbr>)</region>
           <country>United States of America (<abbr>USA</abbr>)</country>

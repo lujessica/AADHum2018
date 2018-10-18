@@ -3,7 +3,15 @@
 
 <p>This repository has been created to introduce researchers, scholars, and community members to scholarly text encoding for primary documents in African American history and culture, in an interactive pre-conference held at the University of Maryland, College Park, MD, USA. These materials are intended to serve as instructional examples that prompt discussion about how encoding can be "<a href="https://aadhum.umd.edu/conference/" target="blank">intentionally digital, intentionally Black</a>."</p>
 
-Slides for the pre-conference can be found <a href="https://docs.google.com/presentation/d/1z9d3JVjva8fm41yZtSCJYYXEghHpI759Nf66g6AH3Ao/edit?usp=sharing">here</a>.
+<p>Slides for the pre-conference can be found <a href="https://docs.google.com/presentation/d/1z9d3JVjva8fm41yZtSCJYYXEghHpI759Nf66g6AH3Ao/edit?usp=sharing">here</a>.</p>
+
+<p><b>To work effectively with these materials, you will need:</b></p>
+<ul>
+<li><a href="https://atom.io">Atom Text Editor</a></li>
+<li>An account with <a href="https://github.com">GitHub</a></li>
+<li><a href="https://desktop.github.com">GitHub Desktop</a></li>
+<li><a href="https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html">The Java SE Development Kit</a></li>
+</ul>
 
 <p><b>By using these materials, you affirm your solidarity with the following values:</b></p>
 <ul>
