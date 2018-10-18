@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+      <titleStmt>
+        <title type="main">The Freedmen: Organization of the Freedmen's Bureau, Its Objects, and What It Has Accomplished</title>
+        <title type="sub">Digital Edition</title>
+        <author>
+          <persName xml:id="JLU">
+            <forename>Jessica</forename>
+            <surname>Lu</surname>
+          </persName>
+          <orgName xml:id="AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHum</abbr>)</orgName>
+        </author>
+      <respStmt>
+        <resp>Encoded by</resp>
+          <persName ref="#JLU">
+            <forename>Jessica</forename>
+            <surname>Lu</surname>
+          </persName>
+      </respStmt>
+      <respStmt>
+        <resp>Original text transcribed by</resp>
+          <persName ref="#JLU">
+            <forename>Jessica</forename>
+            <surname>Lu</surname>
+          </persName>
+        </respStmt>
+      <respStmt>
+        <resp>Original TEI template provided by</resp>
+          <persName xml:id="RAFF">
+            <forename>Raffaele</forename>
+            <surname>Viglianti</surname>
+          </persName>
+          <orgName xml:id="MITH">Maryland Institute for Technology in the Humanities (<abbr>MITH</abbr>)</orgName>
+        </respStmt>
+      <funder>
+          <orgName xml:id="MELL">Andrew W. Mellon Foundation</orgName>
+          <orgName ref="#AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHum</abbr>)</orgName>
+      </funder>
+    </titleStmt>
+    <editionStmt>
+      <edition n="1">First Edition</edition>
+    </editionStmt>
+    <extent>
+      <measure unit="pages" quantity="1">1 digital page of original source material</measure>
+    </extent>
+    <publicationStmt>
+      <publisher>
+        <orgName ref="#AADHum">African American History, Culture, and Digital Humanities</orgName>
+      </publisher>
+      <pubPlace>
+        <settlement>College Park</settlement>
+        <region>Maryland (<abbr>MD</abbr>)</region>
+      </pubPlace>
+      <date when="2018-10-17">October 17, 2018</date>
+      <availability status="free">
+          <p>In the public domain.</p>
+      </availability>
+    </publicationStmt>
+    <seriesStmt>
+        <title type="main">Fortifying Freedom's Borders</title>
+        <title type="sub">Classification, Confinement, and Control in Freedmen's Village</title>
+        <respStmt>
+            <resp>Edited by</resp>
+            <persName ref="#JLU">
+              <forename>Jessica</forename>
+              <surname>Lu</surname>
+            </persName>
+        </respStmt>
+        <respStmt>
+            <resp>Texts identified and assembled by</resp>
+            <persName ref="#JLU">
+              <forename>Jessica</forename>
+              <surname>Lu</surname>
+            </persName>
+        </respStmt>
+        <respStmt>
+            <resp>Analysis read and reviewed by</resp>
+            <persName xml:id="SPG">
+              <forename>Shawn</forename>
+              <forename full="init">J.</forename>
+              <surname>Parry-Giles</surname>
+            </persName>
+        </respStmt>
+    </seriesStmt>
+    <sourceDesc>
+      <listBibl>
+      <bibl>
+        <title type="main">THE FREEDMEN; Organization of the Freedmen's Bureau Its Objects, and What It Has Accomplished</title>
+        <title type="sub">INTERESTING SPEECH BY GEN. HOWARD</title>
+        <author>
+          <persName> <!-- Though the original source does not credit Howard as the author, the source material is a transcript of a speech delivered by Howard. It is reasonable to assume that Howard is the primary author of the speech content. -->
+            <forename>Oliver</forename>
+            <forename full="yes">Otis</forename>
+            <surname>Howard</surname>
+          </persName>
+        </author>
+        <publisher>
+          <orgName ref="#NYT">The New York Times</orgName>
+        </publisher>
+        <pubPlace>
+          <settlement>New York</settlement>
+          <region>New York (<abbr>NY</abbr>)</region>
+          <country>United States of America (<abbr>USA</abbr>)</country>
+        </pubPlace>
+        <date when="1865-08-20">August 20, 1865</date>
+      </bibl>
+      <bibl xml:id="LUDISS">
+          <title type="main">Reckoning with Freedom</title>
+          <title type="sub">Legacies of Exclusion, Dehumanization, and Black Resistance in the Rhetoric of the Freedmen's Bureau</title>
+          <author>
+              <persName ref="#JLU">
+                <forename>Jessica</forename>
+                <surname>Lu</surname>
+              </persName>
+          </author>
+          <publisher>
+            <orgName xml:id="UMD">University of Maryland, College Park (<abbr>UMD</abbr>)</orgName>
+          </publisher>
+          <pubPlace>
+            <settlement>College Park</settlement>
+            <region>Maryland (<abbr>MD</abbr>)</region>
+            <country>United States of America (<abbr>USA</abbr>)</country>
+          </pubPlace>
+          <date when="2018-07-26">July 26, 2018</date>
+      </bibl>
+      </listBibl>
+      <biblStruct>
+        <monogr>
+          <author>
+            <persName xml:id="SBROWNE">
+              <forename>Simone</forename>
+              <surname>Browne</surname>
+            </persName>
+          </author>
+          <title level="m" type="main">Dark Matters</title>
+          <title level="m" type="sub">On The Surveillance of Blackness</title>
+          <imprint>
+            <publisher>Duke University Press</publisher>
+            <pubPlace>
+              <settlement>Durham</settlement>
+              <region>North Carolina (<abbr>NC</abbr>)</region>
+              <country>United States of America (<abbr>USA</abbr>)</country>
+            </pubPlace>
+            <date when="2015-09-07">September 7, 2015</date>
+          </imprint>
+        </monogr>
+        <note>This work by Simone Browne constructs a theoretical framework that anchors the interpretation and encoding of this primary source material, insofar as Browne works to unpack the various ways (historically and in the contemporary era) in which institutions, organizations, and individuals have policed Black people. From analog methods (like lantern laws) to twenty-first century face recognition software, technology has evolved to increase the effectiveness with which we surveil and control Black people. In this primary source material, we can explore the ways in which historical rhetors laid the foundation for the government's persistent control over former slaves. These arguments are part of the rhetorical legacy that continues to advance anti-Black surveillance policies today.</note>
+      </biblStruct>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <editorialDecl>
+      <hyphenation eol="none">
+        <p>Except where normalization disrupts the formatting of the digital surrogate when rendered online, all end-of-line hyphenation in the original source material has been reformed. The <gi>choice</gi> element has been used to enclose <gi>orig</gi> and <gi>reg</gi> elements giving the original hyphenation and regularized version, respectively.</p>
+      </hyphenation>
+      <normalization method="markup">
+        <p>All obvious spelling and typographical errors in the original source material is corrected. The <gi>choice</gi> element has been used to enclose <gi>sic</gi> and <gi>corr</gi> elements giving the original error and correction, respectively.</p>
+      </normalization>
+      <normalization method="silent">
+        <p>Whenever necessary, spacing between words and following punctuation has been regularized to zero spaces; spacing between words has been regularized to one space.</p>
+      </normalization>
+      <p>To represent changes and/or corrections made by the original source authors BEFORE the encoding process, encoders use <gi>add</gi>, <gi>del</gi>, and <gi>subst</gi>.</p>
+      <p>Encoding includes the use of <gi>supplied</gi> to provide clarification and supporting content, including out-links to relevant digital content and citations of Black and Black-centric academic research.</p>
+    </editorialDecl>
+    <samplingDecl>
+      <p>In this first edition, only short passages from the speech are encoded, in an effort to provide examples for the purposes of training and instruction.</p>
+    </samplingDecl>
+    <projectDesc>
+      <p>This digital edition is part of a larger effort to preserve, analyze, and encode historical records from the Freedmen's Bureau papers. This work is undertaken with the aim of understanding how institutional agents worked to define freedom in ways that continued to exclude Black people from full rights and privileges of citizenship in the United States, following their legal emancipation from bondage in the nineteenth century.</p>
+    </projectDesc>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="us-en">Standard American English</language>
+    </langUsage>
+    <particDesc>
+      <listOrg>
+        <org>
+          <orgName ref="FB">
+            <name ref="https://lccn.loc.gov/n80020357">Bureau of Refugees, Freedmen, and Abandoned Lands</name>
+            <abbr>Freedmen's Bureau</abbr>
+          </orgName>
+          <idno type="LCAF">n 80020357</idno>
+          <placeName>
+            <settlement>Washington</settlement>
+            <region>District of Columbia (<abbr>D.C.</abbr>)</region>
+            <country>United States of America (<abbr>USA</abbr>)</country>
+          </placeName>
+          <note>The Freedmen's Bureau is recognized as the United States' first social welfare agency. Established in 1865, the Bureau was charged with facilitating former slaves' transition from bondage to freedom. Led by General Oliver Otis Howard, the Bureau oversaw a variety of projects and initiatives, including: the supervision of land and labor contracts, the education of Black children, the distribution of rations and other relief supplies, and the adjudication of civil and criminal cases involving former slaves. Throughout its tenure, the Bureau was plagued by a dearth of resources and the political wrangling of politicians. Ultimately, the Bureau failed to deliver on many of its promised initiatives, but also contributed significantly to the era's understandings (or lack thereof) of Black life, Black people, and Black communities. Their rhetoric characterized most former slaves as undeserving and unprepared for freedom, and their policies worked to restrict Black people from attaining their full rights and privileges as human beings.</note>
+        </org>
+      </listOrg>
+      <listPerson>
+        <person>
+          <persName xml:id="OOH" ref="https://lccn.loc.gov/n80017916">
+            <forename>Oliver</forename>
+            <forename full="yes">Otis</forename>
+            <surname>Howard</surname>
+          </persName>
+          <idno type="LCAF">n 80017916</idno>
+          <note>Oliver Otis Howard was a decorated Union general who was appointed Head Commissioner of the Freedmen's Bureau in March 1865. Upon taking office, he exercised almost full control over the Bureau's agenda. His rhetoric shaped the Bureau's policies throughout the former Confederate South, as well as heavily influenced American discourse about African Americans in the nineteenth century and beyond. A noted non-abolitionist, Howard approached his job as a military task that needed to be strategically conquered. His approach was largely driven by his Christian faith, rather than by any genuine belief in the abilities, value, or humanity of Black people.</note>
+        </person>
+      </listPerson>
+      <personGrp>
+        <persName xml:id="BLK">Black and African American people</persName>
+        <note>The identification and amplification of this person group is necessary for the reading and interpretation of this text, as this text uses "the Negro" and "freedmen" (both gendered as male) to erroneously generalize about all Black and African Americans and/or diminish their status as fully human.</note>
+      </personGrp>
+    </particDesc>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <p>August 20, 1865</p>
+      </div>
+      <div>
+        <head type="main">THE FREEDMEN; Organization of the Freedmen's Bureau Its Objects, and What It Has Accomplished.</head>
+      </div>
+      <div>
+        <p>From the Kennebec (Maine) Journal, Aug. 11.</p>
+        <p>A meeting of the Maine Freedmen's Relief Society was held at Meonian Hall on Sunday afternoon. In the absence of the President, Gov. CONY, who soon after arrived, the meeting was called to order by Hon. E. FLINT, Secretary of the society, and Rev. D.S. KING, General Agent of the society, was called to the chair. Three little children, formerly slaves in Louisiana, who accompany Mr. KING, sung the song:</p>
+        <p>"Mine eyes have seen the glory of the coming of the Lord."</p>
+
+        <p>Rev. Mr. MCKENZIE then offered prayer.</p>
+
+        <p>Maj.-Gen. HOWARD was called upon, and spoke in substance as follows:</p>
+
+        <p>Just at evening, yesterday, Mr. KING met me, and informed me that it was his purpose to hold a meeting in behalf of the freedmen in this place, to-day, and wished me to address it. In traveling hither and thither through the country, I have found that nearly every man is more or less interested in this great work of the freedmen. Each one questions me -- wants to know what the government proposes to do, and how it intends to go to work to accomplish the results so much desired. It is a great deal of work to answer individuals concerning these matters; and, though I have come here to escape hard work at Washington, and to get a little rest and refreshment, it has been my intention to prepare for publication a statement of the purposes of the government. I have not yet found time to prepare such a statement, and I have consented to come here without special preparation, to tal[???] a little to you, hoping to answer the questions usually propounded to me, so as to let you know what is the duty of every Christian patriot toward the freedmen. As much of the subject partakes of a secular nature, it would seem better not to discuss it on the Sabbath day; but, as it is, to a great extent, a benevolent object, and connected with our duty as Christians, there is a propriety in speaking of it at the present time.</p>
+
+        <p>The government, through Mr. LINCOLN's proclamation of emancipation, decreed that all slaves within certain insurrectionary States should be free, and pledged the faith of the entire nation that they should forever remain free. The object in the establishment of the Freedmen's Bureau was mainly to aid the government in keeping that pledge.</p>
+
+        <p>When I arrived at Richmond from Goldsboro, with the Army of the Tennessee, I received a telegram from Washington, directing me to report at once to the Secretary of War. I went from the command of that army without knowing why I was ordered to Washington. On the way thither an officer suggested that the government wished to put me in charge of the new bureau. I thought the matter over during the remainder of the journey, and came to the conclusion that if that was the intention of the department, it was my duty to assume the charge. On my first interview with the Secretary of War, he remarked that Mr. LINCOLN had been a good deal perplexed as to the proper execution of the law, and the proper officer to be placed at the head of the bureau. He wished me to assume the duties of the office. With little reflection, and without even having read the law, I consented to do so.</p>
+
+        <p>I found that the bureau had no building, no clerks, no organization, and, on reading the law, I found that the duties of the office were in a great degree left to the judgment of the Secretary of War and the commissioner of the Bureau. The force allowed was, a commissioner, ten clerks, and ten assistant commissioners. There were a few words about abandoned lands, a few words about refugees, and a few words about relief establishments. All the rest was left for organization by the commissioner. First the Secretary of War assigned me a building. Next I secured officers and clerks by detail from the army, for I found that there was no appropriation of money to aid in the work. Thus I had a law to execute, without the specified means to execute it. But as they had placed the bureau in the War Department, I was enabled to secure officers by detail from the army, without increase of pay, as provided in the law. In the selection of these agents, I looked over the army and selected the best I could find. I took generally those who had been long in the work -- men who had been successful and who were earnest in securing the rights of the freedmen. When I was compelled to go beyond this class, I took those whom I knew to be men of integrity and with Christian hearts.</p>
+
+        <p>I formed a committee of assistant commissioners, who met in Washington. To them I submitted the subject I wished them to consider. They laid before me plans which I revised, and the whole was published as Circular No. 5. Upon that circular the transactions of the bureau thus far are founded. It was found that ten assistant commissioners, which allowed only one to a whole State, and in some cases only one to two or three States, were entirely insufficient. They must have medical officers and sub-agents, to see that the freedmen are protected in their rights. The result of all the reflection and advice the bureau could command was, that it was determined to make use of the military governments obtaining in the South. Sub-agents were secured, of military officers detailed for the purpose, each reporting to the assistant commissioner having jurisdiction over his respective district. The limits of the sub-district are regulated in the same manner as the military sub-districts of the department. Thus a sufficient number of officers were secured to render the execution of the law more easy.</p>
+
+        <p>As I before remarked, the main object of the establishment of this bureau was to afford a practical opportunity for the realization to the freedmen of the promise made to them by the government in Mr. LINCOLN's Proclamation of Emancipation. You may ask how this is to be accomplished. That is the question that occurred to me, and it is a very difficult problem to solve. However, I had some information which was of use to me in the decision of the question. Before the war I had spent nearly a year in a Southern State. I had been somewhat in doubt before I went to the South whether slavery was right or wrong, considered abstractly. Many had told me that the evils of which complaint had been made were not necessarily parts of the system, but merely addenda -- evils not inherent in the principle of slavery. It was said that similar objections might be raised against institutions undoubtedly good, and that it was the abuse and not the use of the institution which rendered it obnoxious to censure. I studied the character of the system, and concluded that if certain features which were apparent in the system were necessarily attendant upon it, that there was something rotten, radically evil, in the whole system. I have not yet seen any reason to change my opinion. I at that time noticed differences in the management and methods of business of slave-owners. During the past four years it has been my lot to be in the Southern States most of the time. We have had hundreds of freedmen around our camp every day. We have been in constant intercourse with them. We have been on the abandoned plantations. We have been through the States of Virginia, Kentucky, Tennessee, Alabama, Georgia, South Carolina, and North Carolina, and from these many opportunities have become pretty familiar with slavery in its various forms as it has appeared in its practical workings. Hence, on assuming the charge of the Bureau of Refugees, Freedmen, and Abandoned Lands, I did not feel quite so ignorant of the matters with which I had to deal as the planters and people of the South seemed to think I was. They came to me and advised me concerning many matters; they wrote me letters asking me what I intended to do, and telling me that I must not do this or that, or that I must do something else. I also had letters from the North, each one proposing a plan for the settlement of the entire question, sometimes based on experience in the West Indies, sometimes drawn from the case of a remote island in the ocean, sometimes from a few months' experience as teacher in the South. Thus I had a variety of plans from all parts of the country, every one proposing a complete settlement of all questions. I looked them all over, examined them thoroughly, and I believe prayerfully. I wished simply to have the best plan for effecting the desired object. The War Department placed everything, letters, documents, recommendations, etc., in my hands. It was a difficult task, and I will tell you how I set about the work.</p>
+
+        <p>The first business was to regulate labor. There was a variety of plans for the accomplishment of this. One proposed that every former slave should leave his former owner, and that they should flock into villages by themselves, where they might live separated from the white, and form a community. Another wanted Northern men to emigrate to the South, and employ the freedmen in cultivating the soil. Another wished to have them set at work on the Pacific Railroad. Still another thought they could be most profitably employed in constructing dykes all along the Mississippi River. The plan adopted was to have former owners, as far as practicable, who had work to do, employ each the men who had been his slaves. I mean where they had not left their own homes, or voluntarily returned. I knew that they had been able to support their slaves on their plantations, or rather that the masters had been supported, by the labor of their slaves, and that very large fortunes had been made, so that it is wonderful how many people there are at the South who are worth more than twenty thousand dollars. The system of contracts was chosen. You may say that that was already in operation. Well, I mean that of all the plans proposed and tried, that was selected as the best, for the present at least. It was determined that the contracts should be bona fide agreements, in which each should have a duty to perform, and both be held in it. You may ask if it is practicable to make and enforce these contracts all through the Southern States. It may not be, but it is the purpose of the bureau and of the government to encourage them by all the means in their power, and, when made, to protect both parties to the contract. Some may say, "but this is equivalent to slavery, and will lead to the reenslavement of the blacks." No, it is not; but it is precisely equivalent to contracts everywhere. And the evils of the system are less than by any other known one. Most of the freedmen being ignorant of the rights and duties of liberty to which they have come, if unemployed, they accumulate in villages, and their idleness leads to corruption and crime. If they can be induced to enter into contracts, they are taught that there are duties as well as privileges of freedmen. And the system thus far has worked well. The employers are furnished with laborers, and the employed get work and wages secured by a lien on the crops or something else. You may say that this does not cover all cases, that communities of freedmen have already collected at Norfolk, Beaufort. St. Helena Island, Memphis, Vicksburgh, New-Orleans, Nashville, Chattanooga and elsewhere, and that suffering does already exist in those places. This is true, and in the case of these villages the bureau recognizes the agency and the benefits of the benevolent institutions which have done so much to relieve suffering there. But our agents have established intelligence offices, are making a census of the people there, and undertake to find employers and employees for those wanting either. By this means we have found in some localities, for example, Washington, three times as many places as we can find freedmen to fill them. The rental of land furnishes another means of employing the freedmen. Immense numbers of blacks have followed our armies in their marches through the enemy's country. Eight thousand followed Gen. SHERMAN through South Carolina. These were all turned over to Gen. SAXTON, who distributed them among the islands abandoned by their owners and taken possession of by the government. Each has the rental of forty acres, more or less. This plan, under Gen. SAXTON's supervision, has succeeded, and has been followed elsewhere. Near Norfolk, near Richmond, and opposite Washington, abandoned houses as well as lands are rented by colored people, or by the employers of such. All those means have been taken to give the freedmen the practical fruits of freedom. Some may ask, do they give these results? In answer, I would say that wherever a fair opportunity for their trial has been given, the success has been even greater than we could have anticipated. At Davis' Bend, on the Mississippi, the colored people have already laid up more than a hundred thousand dollars. It is the aim of the bureau to encourage the different benevolent institutions. Industrial schools have been started, with the best results. I saw an excellent one at Norfolk. A Quaker lady taught girls to sew and make different garments; and wherever these schools have been tried they have paid their way.</p>
+
+        <p>It is the duty of the assistant commissioners to introduce compensated labor everywhere, to prevent the freedmen from accumulating, and becoming impoverished thereby. They thus save expense to the government and enable the benevolent institutions to dispense their charities elsewhere, where necessity is already upon them. The consequence of all this labor and vigilance in behalf of the freedmen is that the National Government is now obliged to keep and take care of fewer negroes than white people.</p>
+
+        <p>There is one more method used for employing freedmen, which is by carrying on government farms. The plan of letting or selling abandoned lands is held in abeyance at present. The government policy in regard to such lands is not yet well defined, and while such property has been described as lands left by the owners for purposes hostile to the government, it is deemed best at present not to dispose of them. If a clear title to them could be given, they could all be leased or sold in a very short time; but until some of the many questions as to the ownership can be settled, people are afraid either to rent or purchase them. Meanwhile, the government carries them on with the aid of the freedmen, and the proceeds either go into the Treasury or accumulate in funds for the benefit of the freedmen. We have a financial agent in Washington who takes care of these funds and keeps strict accounts of their proceeds.</p>
+
+        <p>The second task of the bureau in the interest of the late slaves is the encouragement of education. Some one may ask, why not take the matter entirely under your control? It is impossible! It would be as difficult, to control the school system in South Carolina as in Maine, and there would be the same jealousy, were it undertaken, in the former State as there would be here, if I attempted to dictate to you. Meanwhile, so long as the States of the South are under military control, I have consented to give them a Superintendent of Schools for each State. This officer is to exercise general supervision for schools over all the schools for freedmen in the State under his care. Soon after I assumed charge of the bureau complaint arose because the rations of teachers were cut off. They were allowed to purchase them at the cost price, but not to draw them for nothing. The commissioner, as all other officers at Washington, is between two fires. Taxes are to be paid, but the work is to be done. The people cry out against expense, and cry, "Retrench, retrench." The War Department responds by mustering out its officers and soldiers. Still the Commissary-General complains that a great many rations are issued to teachers and agents. There is no law for it, and the Commissary-General determines to retrench in that particular. The best regulation that could be framed was to cut off the free ration, but allow them to purchase at the cost price. It was never legal, and was simply allowed to be drawn by tacit consent. However, the agents pleaded for the ration and asserted that its withdrawal would take away one-half of the teachers. I went to the Commissary-General, to the Secretary of War, and to the President, and they all coincided in the opinion that the best thing to be done was that which I have already told you was done. I think that the plan will work well. Just before I left Washington, Capt. WILDER, of Virginia, told me that the freed people were willing to feed teachers if they would only come to them. I think that will be done, and it secures what we want, self-sustaining schools. I have found that black people are like other human beings. They have pride like white people. They don't like to be pauperized, or regarded as paupers, and if they can do something to aid in teaching themselves, they are glad to do it. It is found that they will attend those schools most where they are obliged to pay the most. The entire withdrawal of aid would spoil the schools. It must be withdrawn gradually. We must aid them now. We afford the same protection to churches. Where preachers or teachers desire help which we can give them, we are glad to give it.</p>
+
+        <p>The third means used by the bureau for its work is the formation of relief establishments. These I divide into orphan asylums, homes and hospitals. The orphan asylums are mostly conducted by voluntary associations. Rations are issued to them, and will probably continue to be issued for some time. Some of these contain striking cases, where relief is called for imperatively. Some of the inmates are without arms, some without legs; others are old and decrepid; and still others blind or deaf. Most of them have been separated from their former homes by the operations of war, or by compulsion of their former owners, and we must protect and support them.</p>
+
+        <p>The fourth and last general method to forward the ends of the establishment of the bureau is an effort to secure justice for the freed people. We find in the South some willing to act, and acting justly toward their former slaves. Others, even good men, are so imbued with a life-long prejudice, that they cannot act justly toward them. Still others will not. Now some one asks, how does the bureau propose to secure this justice for them? The War Department has established military departments all over the South, as it has in the North. Officers are stationed in every State and in all the important towns to enforce the will of the government. Unfortunately, many in the South, and others, even among our own officers and soldiers, hate the negro. They always have, and they always mean to. These are not disposed to deal with justice toward the blacks. Others are always finding difficulties in the way, and imagine more than they find. The old masters come around them and persuade them, that either they themselves must control the negroes, or the government must exercise absolute authority over them. Hence pass-orders and other odious restrictions are issued, which sometimes almost make me think it impossible that the promise of freedom to the colored race should be sustained. However, to meet such cases, I drew up a circular directing that during the interregnum, while the military power was relaxing its hold and the civil power was not reestablished, courts should be established by the officers of the bureau, and that in them the testimony of freedmen should be received. That little clause at the end worked well. Let me give you one or two cases:
+        In Mississippi a man murdered his former slave. He was taken up for the crime, but the judge issued a writ of habeas corpus, and he was set at liberty. To save rearrest he could go to a country where there was no judge, and he would thus be safe. The assistant commissioner telegraphed me the facts, and that he was threatened with arrest for false imprisonment. At my request, the Secretary of War directed the department commander to arrest the person for the murder and try him by military court, and if the judge again attempted to issue a writ of habeas corpus, to arrest him also. I have not heard the result of the case, but have no doubt the man was tried.</p>
+
+        <p>In Alexandria, a Judge declined to receive the testimony of a colored man. His horse had been taken away from him. The agent of the bureau interfered, and wrote the facts to me. I wrote a letter to the Mayor of the city, requesting that all such cases should be turned over to the provost courts. He not only refused to do so, but also to answer my letter. I wrote to the department commander on the subject, detailing the facts, and he accordingly drew up an order, which he never had occasion to use, for the authorities there found out that we were in earnest, and all such cases are now transferred to provost courts.</p>
+
+        <p>I give you these two instances to show you that we are doing what we can for the rights of the freedmen. You may hear it said that we are not working for their benefit. We are working night and day for the establishment of the rights of freedmen. The government has solemnly promised to them their freedom and the fruits of freedom. It will keep that promise. We may differ as to the methods to be used for this end, but the main principle we will adhere to. You may ask why I do not speak on other questions connected with the freedmen, not yet settled by the people. It is not congenial to my character to do so. I am placed in a responsible position to execute a special work. With the blessing of God, I and my helpers mean to execute our trust. You have, given us a law to execute, and we are determined to do so. When you give us another law we will execute that.</p>
+
+        <p>You will thus see that by the regulation of labor as we are doing it, we prevented the breaking up of society, and prevent what many supposed was inevitable -- insurrection and bloodshed. We also procure the cultivation of the soil, and food for the freedmen themselves.</p>
+
+        <p>By our schools we secure the gradual elevation and education of the race, so that if we can go on as we have begun, it will not be long before they will be fitted for much higher duties than they are now competent to perform. It will not be long before they will be in a position to demand the full rights of citizens, and compete with the whites for a fair chance in labor and business.</p>
+
+        <p>I see that it is stated that Gen. COX, who is candidate for Governor of Ohio, has given it as the result of his experience and observation, that the white and black race cannot permanently live together in the country. Now I have the highest respect for Gen. COX. I esteem him as a thorough soldier, a true patriot, a Christian gentleman. But my experience leads me to a conclusion diametrically opposite. If my individual likes and dislikes may be referred to, I know that I can employ a negro, and he and I can live together; and, if that is the case, there is no reason why another two cannot do so likewise. It shows that it is not a natural instinctive repugnance in as against the blacks. Further, I am conscious that I could employ twenty-five negroes on a farm and live with them, not only without hating them, but could love each and every one of them. I will use that strong term. But you say, "that is not social equality." Social equality is an absurdity. It does not exist anywhere, not here in Augusta. But, "in talking of employing negroes, you suppose the white man was Superior." Perhaps in the average he is. But "would you like to see white men employed by negroes?" In answer I would say that, in Washington, one of the wealthiest citizens is a colored man and he employs white clerks, who cannot only endure the degradation, but are very glad of the employment. He transacts a very large business at home and with the West. This may seem to you an anomaly -- an absurdity. It is not; it is simply uncommon. There is a prejudice and there is a conventionalism against it, but the prejudice is not radical nor instinctive, and all conventionalisms are liable to change.</p>
+
+        <p>Let me tell you my method of solving this problem -- how to rid ourselves of this prejudice. It is, get more of the spirit of Christ. That will substitute love for hate in our prejudices. But you will say "this is not practical; the love of Christ is not so wide-spread as to render this available." Well, then, interest will do it. We cannot dispense with their labor. Our intercourse which we must hold with them as our employes will serve to dissipate our prejudices. This is my opinion, and I can back it up with facts. Maryland has become a free State by her own act. In the southern part of Maryland the slave-owners were devoted to the institution. It was of "divine origin." Slavery was the "normal condition of the black race." They hung to it as long as they could, but fortunately in the northern part of the State were brave men who fought against it, and they finally triumphed. Immediately the former owners of slaves were determined to drive off their hands from their old homes.</p>
+
+        <p>They could live with them as slaves, but not as free men. How is it now? They have agents whom they send to Richmond and elsewhere to collect freedmen to labor for them. They must have their help, and they are engaging as many as they can get. They are willing to pay from $13 to $15 for ordinary hands; they want the women for house labor, and the prospect is that there will soon be more negroes in that section than there were formerly slaves and free people of color. They will have no trouble in living with the whites, nor the whites with them. Thus it will be everywhere.</p>
+
+        <p>There are many other things connected with the operations of the bureau which I have not touched upon. I might speak of marriage, how hard we are trying to bring families together, to have marriages solemnized by ministers of the Gospel, and striving to encourage and secure a higher state of morality among this people. In the matter of binding out children, too, we discountenance all such apprenticeships, without the consent of parents. Where it has been done without their consent, we help parents to find their children and bring them back. The question of colonization is sometimes brought up. We say, colonize as many as you please, with the consent of the colonized. If they wish to go to Liberia or elsewhere, the government and the bureau will help them, but it will force no one. Thus it will be seen that we have different systems in operation, and we shall continue to keep them in operation until circumstances render any one of them detrimental to our object, when it will be immediately abandoned. I think that all we have to do is to aim at absolute justice to blacks and whites, watching the signs of the times, and keeping a steady rein. I am quite sanguine of the result. I know there are murders in Mississippi and Georgia, and disturbances elsewhere, but these are individual cases, and not the rule. The work is going on comparatively well, I think; and, while we should be prepared for any contingency, we have a right to be sanguine. I believe that when God sent us forth to liberate this oppressed race, he did not mean that they should be wholly engulphed. He intended that they should be free, and free to some purpose. If we attempt to reenslave them, or to bind any heavy burdens upon them, He will chastise us again and again. The signs of the times are that God means that we shall do right.</p>
+
+        <p>The bureau has to depend upon voluntary associations for a great deal of its work for sending teachers into the field, and partially to relieve the poor and distressed. No appropriation was made by Congress for the work before us, and when money once gets into the treasury we cannot get it out again without special appropriation. When Congress meets I shall lay our wants before it. Until then we must depend to some extent on the associations already formed. Of this society (the Maine Freedmen's Relief Society,) you know something. Its officers are generally personally known to you, and you are also aware that it is an auxiliary to one of the great national associations which give the bureau material aid.</p>
+
+        <p>I am opposed to a permanent establishment in Washington for the purposes for which the bureau labors. I think our only efforts should be with a view to an end of all this. The sub'ects are entirely matters for State control; and when any State shows that it is able and willing to undertake the work -- willing to take care of its own poor, and to deal justly by its colored people -- we shall be disposed to let them. Not until then.</p>
+
+        <p>I thank you for listening so attentively to me. The bureau over which I have been placed is a responsible post and in its administration I need your earnest support. Yet it is a work that especially needs the Divine blessing. It is God's work. It is a benevolent department of the government placed at Washington, that the Christian churches and voluntary benevolent societies, and all lovers of justice, may have a friend near the head of the government. They can rest assured that their interests will be cared for, so for as it is in the power of the bureau to do it. The responsibilities of the administration are yours and the country's as well as mine, and if we discharge them in the fear of God, doing what is right in His sight, and dealing justly with the people for whose benefit the bureau was established, we may truly make our nation what we all wish it to be -- "a nation whose God is the Lord."</p>
+      </div>
+    </body>
+  </text>
+</TEI>
